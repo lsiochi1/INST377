@@ -1,56 +1,64 @@
 <!--creating document-->
 <!DOCTYPE html> 
-<html lang="en-US"> <!--defines the whole document-->
+    <html lang="en-US"> <!--defines the whole document-->
 <!--head-->
-<head>
-<title>Assignment One - Learning HTML</title>
-</head>
+    <head>
+        <title>Assignment One - Learning HTML</title>
+        <meta charset="UTF-8">
+    </head>
+
 <!--body - defines the document body-->
-<body> 
-<h1>The header tag</h1>
-<h2>A smaller header</h2>
-<p>This is the paragraph and includes some kind of text.
-    <br> <!--line break--> The is a new line in the same paragraph. 
-</p>
+    <body style="background-color: lavenderblush"> 
+        <h1 style="color:maroon">The maroon header tag</h1>
+        <h2>A smaller header</h2>
+        <h2 style='font-size:60px;'>A styled header!</h2>
 
-<p style = "color:purple">A purple paragraph!</p>
+        <p>This is the paragraph and includes some kind of text.
+            <br> <!--line break--> The is a new line in the same paragraph. 
+        </p>
 
-<!--HTML tags that will preserve all spaces and linebreaks when the element is displayed-->
-<pre>This preserves all spaces and linebreaks!
+        <p style = "color:purple">A purple paragraph!</p>
 
-    Isn't that awesome!
+        <!--HTML tags that will preserve all spaces and linebreaks when the element is displayed-->
+        <pre>
+            This preserves all spaces and linebreaks!
 
-    Look, it's doing it right now.
-</pre>
+            Isn't that awesome!
 
-<!--embedding a link-->
-<a href="https://www.w3schools.com">This is a link</a>
-<!--href is an attribute, provides additional information-->
+            Look, it's doing it right now.
+        </pre>
 
-<!--putting an image
-src = source/file name, alt = text that comes when the image can't be shown-->
-<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+        <!--embedding a link-->
+        <a href="https://www.w3schools.com">This is a link</a>
+            <!--href is an attribute, provides additional information-->
 
-<hr> <!--thematic break/shift of topic-->
+        <!--putting an image
+                src = source/file name, 
+                alt = text that comes when the image can't be shown-->
+        <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+        
+        
+        <!--thematic break/shift of topic-->
+        <hr> 
 
-<!--create a button-->
-<button>I'm a Button</button>
+        <!--create a button-->
+        <button style="text-align: center">I'm a Button</button>
 
-<!--unordered list-->
-<h3>Drinks I Like</h3>
-<ul title = "Drinks I Like"> <!--title attribute displays when you mouse over something-->
-        <li>Coffee</li>
-        <li>Water</li>
-        <li>Tea</li>
-      </ul>
+        <!--unordered list-->
+        <h3>Drinks I Like</h3>
+        <ul title = "Drinks I Like"> <!--title attribute displays when you mouse over something-->
+            <li>Coffee</li>
+            <li>Water</li>
+            <li>Tea</li>
+        </ul>
 
-<!--ordered list-->
-<h3>The Classes I have on Tuesday</h3>
-<ol>
-    <li>INST377</li>
-    <li>INST466</li>
-    <li>INST346</li>
-</ol>
+        <!--ordered list-->
+        <h3>The Classes I have on Tuesday</h3>
+            <ol>
+                <li>INST377</li>
+                <li>INST466</li>
+                <li>INST346</li>
+            </ol>
 
-</body>
+    </body>
 </html>
