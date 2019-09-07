@@ -9,14 +9,24 @@
             h1  {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
             h2 {font-family: Arial, Helvetica, sans-serif}
             #p01 {border:3px mediumblue}
+
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+                text-align: center}
         </style>
     </head>
 
 <!--body - defines the document body-->
     <body style="background-color:rgba(112, 128, 144, 0.39) "> 
+        
         <h1 style="color:maroon">The maroon header tag</h1>
         <h2>A smaller header</h2>
         <h2 style='font-size:60px;'>A styled header!</h2>
+
+        <img src="https://media.tenor.com/images/ce34856de10ca563cb111889af33af5a/tenor.gif" 
+        alt="Hey GIF" style="width: 150px;height:150px">
 
         <p id="p01" >This is the paragraph and includes some kind of text.
             <br> <!--line break--> The is a new line in the same paragraph. </p>
@@ -72,7 +82,28 @@
         <blockquote style="border: 2px tomato">Toby is in HR which technically means he works 
             for corporate. So he's not really a part of our family. 
             Also he's divorced... so he's not really a part of his family.</blockquote>
+        
+        <!--links-->
+        <a href="ohshitgit.com" target="_blank" title="Go to ohshitgit.com">Learn more about Git!</a>
 
+        <!--tables-->
+        <table style="width:75%">
+            <caption>INST Courses</caption>
+            <tr>
+              <th>Course Code</th>
+              <th colspan="2">When?</th> 
+            </tr>
+            <tr>
+              <td>INST377</td>
+              <td>T/Th</td> 
+              <td>12:30PM</td>
+            </tr>
+            <tr>
+              <td>INST466</td>
+              <td>T/Thu</td> 
+              <td>2:00PM</td>
+            </tr>
+          </table>
 
     </body>
 </html>
