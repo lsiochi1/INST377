@@ -1,112 +1,26 @@
-<!--creating document-->
 <!DOCTYPE html> 
-    <html lang="en-US"> <!--defines the whole document-->
-<!--head-->
+    <html lang="en-US"> 
     <head>
-        <title>Assignment One - Learning HTML</title>
+        <title>Assignment 1 - HTML & CSS</title>
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-
-            .page-wrapper {
-                width: 70%;                
-                background-size: 0.75em;
-                margin: 30px auto;
-                padding: 0 2px;
-            }
-
-            /* Style the header */
-            .header  {
-                font-family:'Courier New', Courier, monospace;
-                font-size:20px;
-                text-align: center;
-                color:black
-            }
-            
-            .bottomborder{
-                border-bottom: 2px 	#C0C0C0;
-            }
-
-            .column {
-                float: left;
-                width: 20%;
-                padding: 10px;
-            }
-
-            table, th, td {
-                border: 1px solid black;
-                border-collapse: collapse;
-                padding: 5px;
-                text-align: center}
-        </style>
     </head>
 
-<!--body - defines the document body-->
     <body style="background-color:whitesmoke"> 
+        <div id="headerName">
+            <h1>Lorraine Siochi</h1>
+        </div>
 
-        <div></div>
+        <div class="resumeContact">
+            <h2>Contact Information</h2>
+                <h3>Phone Number:</h3>
+                    <p>123-456-789</p>
+                <h3>Email:</h3>
+                    <p>lsiochi@umd.edu</p>
+                <a href="https://github.com/lsiochi1/INST377">Github</a>
+                    
+        </div>
         
-        <h1 class="header">Psychology of Different Fonts</h1>
-        <p class="bottomborder">Every font elicits different emotions and moods. Each has its one personality. Each serves a purpose when used. </p>
 
-        <img src="https://media.tenor.com/images/ce34856de10ca563cb111889af33af5a/tenor.gif" 
-        alt="Hey GIF" style="width: 150px;height:150px">
-
-        <p id="p01" >This is the <em>paragraph </em>and includes some kind of text. </p>
-
-        <!--embedding a link-->
-        <a href="https://www.w3schools.com">This is a link</a>
-            <!--href is an attribute, provides additional information-->
-
-        <!--putting an image
-                src = source/file name, 
-                alt = text that comes when the image can't be shown-->
-        <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-        
-        <!--unordered list-->
-        <h3 class="cool">Drinks I Like</h3>
-        <ul title = "Drinks I Like"> <!--title attribute displays when you mouse over something-->
-            <li>Coffee</li>
-            <li>Water</li>
-            <li>Tea</li> </ul>
-
-        <hr /> 
-        <!--ordered list-->
-        <h3>The Classes I have on <mark>Tuesday</mark></h3>
-            <ol>
-                <li>INST377</li>
-                <li>INST466</li>
-                <li>INST346</li> </ol>
-
-        <!--tables-->
-        <table style="width:75%">
-            <caption>INST Courses</caption>
-            <tr>
-              <th>Course Code</th>
-              <th colspan="2">When?</th> 
-            </tr>
-            <tr>
-              <td>INST377</td>
-              <td>T/Th</td> 
-              <td>12:30PM</td>
-            </tr>
-            <tr>
-              <td>INST466</td>
-              <td>T/Thu</td> 
-              <td>2:00PM</td>
-            </tr>
-          </table>
-
-        <hr /> 
-
-
-        <!--links-->
-        <a href="https://ohshitgit.com" target="_blank" title="Go to ohshitgit.com">Learn more about Git!</a>
-        <br />
-
-        <!--Inline Span-->
-        <p>Woah <span style="border: 1px solid black">I'm trapped inside this box!!</span> Ahhhh </p>
-
-        <br />
     </body>
 </html>
