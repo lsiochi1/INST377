@@ -1,4 +1,21 @@
+
+/*Q2-1*/
 #headerName {
     background-color: midnightblue;
-    color: azure
+    color: azure;
+    text-align: center;
 }
+
+/*Q2-2*/
+.resumeContent{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/*Q2-3*/
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
