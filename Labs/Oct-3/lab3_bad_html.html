@@ -7,45 +7,26 @@
   /* 
     Place your fresh CSS styles here to help organize the page
   */
-  doc {
-    background: green;
-    height: 960px;
-    width: 480px;
-  }
-  
-  .container {
-    background-color: purple;
-    margin: 0;
-  }
-  
-    div {
-      color: red;
-      width: 100px;
-      height: 42px;
-    }
-  
-  .newsline {
-    font-size: 42px;
-    font-style: bold;
-    font-weight: 400;
-  }
-  
+
   .wrapper {
     width: 60%;
     height: 100vh;
-    width: 22vh;
+    margin:auto;
     background: grey;
   }
   
   .head {
     display: flex;
+    text-align: center;
     flex-direction: column;
+    
     align-items: center;
+    justify-content: center;
+    margin: auto;
     margin-bottom: 25px;
   }
   
-  .head a,
-  .head {
+  .head a {
     margin: 0;
     padding: 0;
   }
@@ -53,6 +34,9 @@
   .second_container {
     background: pink;
     height: 150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .container {
@@ -60,6 +44,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin: 5px;
   }
   
   .second_textbox {
@@ -68,24 +53,48 @@
     margin-bottom: 25px;
     display: flex;
     align-items: center;
-    justify-content: center
-  }
-  
-  .green {
-    background: red;
-    cursor: pointer;
-  }
-  
-  .second {
+    justify-content: center;
     background: lightblue;
   }
+  
+
+  .first{
+    height: 100px;
+    width: 350px;
+    margin: 5px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red; 
+    cursor: pointer;
+    
+  }
+
+  .second{
+    height: 100px;
+    width: 350px;
+    margin: 5px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;   
+  }
+
+  .newsline {
+    font-size: 42px;
+    font-weight: bold;
+  }
+
   </style>
 </head>
 
 <body>
   <div class="wrapper">
     <div class="head" id="start">
-      make me a headline
+        <h1 class="newsline">Sample Header</h1>
+      <a href="">Anchor tag to nowhere</a>
     </div>
     <div class="second_container">
       <div class="interior">
@@ -93,15 +102,15 @@
     </div>
     </div>
     <div class="container">
-      <div>
-        First
+      <div class="first">
+        Click me, I'm great
       </div>
-      <div>
-        Second
+      <div class="second">
+        
       </div>
       <div class="second_textbox">
         <p>
-          Third
+          World #2
         </p>
       </div>
     </div>
